@@ -7,6 +7,7 @@
 
 
 #include "Node.h"
+#include "Collector.h"
 
 class LinkedList {
 
@@ -19,11 +20,12 @@ public:
     {
         length = 0;
         first = nullptr;
+        Collector memoryManager = Collector();
     }
 
     void Add(int value) {
         if (first == nullptr) {
-            first = new Node(value);
+            first = memoryMaganer->ReserveSpace(value);
             length++;
         } else {
             AddRecursively(value, first);
