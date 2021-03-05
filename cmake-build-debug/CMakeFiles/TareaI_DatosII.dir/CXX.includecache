@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/luis/Escritorio/Proyecto/TareaI-DatosII/LinkedList.h
+Node.h
+/home/luis/Escritorio/Proyecto/TareaI-DatosII/Node.h
+
 /home/luis/Escritorio/Proyecto/TareaI-DatosII/Node.h
 algorithm
 -
@@ -15,4 +19,6 @@ iostream
 -
 Node.h
 /home/luis/Escritorio/Proyecto/TareaI-DatosII/Node.h
+LinkedList.h
+/home/luis/Escritorio/Proyecto/TareaI-DatosII/LinkedList.h
 

@@ -1,14 +1,19 @@
 #include <iostream>
 #include "Node.h"
+#include "LinkedList.h"
 
 using namespace std;
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
 
-    Node* nodo = new Node(25);
+    LinkedList lista = LinkedList();
 
-    cout << "Puntero: " << nodo << ", dato: " << nodo;
+    lista.Add(25);
+    lista.Add(42);
+    lista.Add(85);
+
+    cout << "Lista: " << lista.Length() << ". Primer elemento: " << lista.GetByIndex(0) << ". Último elemento: " << lista.GetByIndex(lista.Length()-1);
 
 
 

@@ -17,11 +17,7 @@ public:
 
     Node(int value){
         this->value = value;
-        next = 0L;
-    }
-
-    int Getvalue(){
-        return value;
+        next = nullptr;
     }
 };
 

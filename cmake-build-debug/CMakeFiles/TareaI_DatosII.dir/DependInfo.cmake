@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/luis/Escritorio/Proyecto/TareaI-DatosII/Collector.cpp" "/home/luis/Escritorio/Proyecto/TareaI-DatosII/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/Collector.cpp.o"
   "/home/luis/Escritorio/Proyecto/TareaI-DatosII/LinkedList.cpp" "/home/luis/Escritorio/Proyecto/TareaI-DatosII/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/LinkedList.cpp.o"
   "/home/luis/Escritorio/Proyecto/TareaI-DatosII/Node.cpp" "/home/luis/Escritorio/Proyecto/TareaI-DatosII/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/Node.cpp.o"
   "/home/luis/Escritorio/Proyecto/TareaI-DatosII/main.cpp" "/home/luis/Escritorio/Proyecto/TareaI-DatosII/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/main.cpp.o"

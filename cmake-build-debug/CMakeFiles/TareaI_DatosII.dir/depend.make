@@ -8,6 +8,7 @@ CMakeFiles/TareaI_DatosII.dir/LinkedList.cpp.o: ../Node.h
 CMakeFiles/TareaI_DatosII.dir/Node.cpp.o: ../Node.cpp
 CMakeFiles/TareaI_DatosII.dir/Node.cpp.o: ../Node.h
 
+CMakeFiles/TareaI_DatosII.dir/main.cpp.o: ../LinkedList.h
 CMakeFiles/TareaI_DatosII.dir/main.cpp.o: ../Node.h
 CMakeFiles/TareaI_DatosII.dir/main.cpp.o: ../main.cpp
 

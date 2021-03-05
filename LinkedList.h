@@ -9,33 +9,54 @@
 #include "Node.h"
 
 class LinkedList {
-    int elements;
+
+    int length;
     Node* first;
+
+public:
 
     LinkedList()
     {
-        elements = 0;
+        length = 0;
         first = nullptr;
     }
 
-public:
     void Add(int value) {
         if (first == nullptr) {
             first = new Node(value);
-            elements++;
+            length++;
         } else {
             AddRecursively(value, first);
         }
     }
 
-    int Get(int index){
+    int GetByIndex(int index){
+        return GetByIndexRecursively(index, first);
+    }
+
+    int GetByValue(int value){
         return 0;
+    }
+
+    int Length(){
+        return length;
     }
 
 private:
     void AddRecursively (int value, Node* node){
         if (node->next == nullptr){
-            *node->next = Node(value);
+            node->next = new Node(value);
+            length++;
+        } else {
+            AddRecursively(value, node->next);
+        }
+    }
+
+    int GetByIndexRecursively(int index, Node* node){
+        if (index == 0) {
+            return node->value;
+        } else {
+            GetByIndexRecursively(index-1, node->next);
         }
     }
 

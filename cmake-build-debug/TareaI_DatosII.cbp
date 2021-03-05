@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/luis/Escritorio/Proyecto/TareaI-DatosII/Collector.cpp">
+			<Option target="TareaI_DatosII"/>
+		</Unit>
+		<Unit filename="/home/luis/Escritorio/Proyecto/TareaI-DatosII/Collector.h">
+			<Option target="TareaI_DatosII"/>
+		</Unit>
 		<Unit filename="/home/luis/Escritorio/Proyecto/TareaI-DatosII/LinkedList.cpp">
 			<Option target="TareaI_DatosII"/>
 		</Unit>

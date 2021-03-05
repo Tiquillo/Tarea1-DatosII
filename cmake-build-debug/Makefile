@@ -143,6 +143,33 @@ TareaI_DatosII/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TareaI_DatosII.dir/build.make CMakeFiles/TareaI_DatosII.dir/build
 .PHONY : TareaI_DatosII/fast
 
+Collector.o: Collector.cpp.o
+
+.PHONY : Collector.o
+
+# target to build an object file
+Collector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TareaI_DatosII.dir/build.make CMakeFiles/TareaI_DatosII.dir/Collector.cpp.o
+.PHONY : Collector.cpp.o
+
+Collector.i: Collector.cpp.i
+
+.PHONY : Collector.i
+
+# target to preprocess a source file
+Collector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TareaI_DatosII.dir/build.make CMakeFiles/TareaI_DatosII.dir/Collector.cpp.i
+.PHONY : Collector.cpp.i
+
+Collector.s: Collector.cpp.s
+
+.PHONY : Collector.s
+
+# target to generate assembly for a file
+Collector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TareaI_DatosII.dir/build.make CMakeFiles/TareaI_DatosII.dir/Collector.cpp.s
+.PHONY : Collector.cpp.s
+
 LinkedList.o: LinkedList.cpp.o
 
 .PHONY : LinkedList.o
@@ -233,6 +260,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... TareaI_DatosII"
+	@echo "... Collector.o"
+	@echo "... Collector.i"
+	@echo "... Collector.s"
 	@echo "... LinkedList.o"
 	@echo "... LinkedList.i"
 	@echo "... LinkedList.s"

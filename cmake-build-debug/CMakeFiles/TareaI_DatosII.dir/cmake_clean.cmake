@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/TareaI_DatosII.dir/Collector.cpp.o"
   "CMakeFiles/TareaI_DatosII.dir/LinkedList.cpp.o"
   "CMakeFiles/TareaI_DatosII.dir/Node.cpp.o"
   "CMakeFiles/TareaI_DatosII.dir/main.cpp.o"
