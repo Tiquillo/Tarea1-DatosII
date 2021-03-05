@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/luis/Escritorio/Proyecto/TareaI-DatosII/Node.h
+algorithm
+-
+
+/home/luis/Escritorio/Proyecto/TareaI-DatosII/main.cpp
+iostream
+-
+Node.h
+/home/luis/Escritorio/Proyecto/TareaI-DatosII/Node.h
+
