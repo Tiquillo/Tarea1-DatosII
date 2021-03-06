@@ -51,13 +51,6 @@ public:
     void Remove(int index){
         if (first == NULL) {
             throw exception("List is empty.");
-        } else if (index == 0){
-            if (length == 0) {
-                memoryManager.UnasignMem(first);
-                first = NULL;
-            } else {
-
-            }
         } else{
             RemoveRecursively(index, first);
         }
@@ -86,7 +79,11 @@ private:
     }
 
     void RemoveRecursively(int index, Node* node){
-        if (index == 1) {
+        if (index == 0){
+            Node* temp = node;
+            node = node->next;
+            memoryManager.UnasignMem(temp);
+        } else if (index == 1) {
             if (node == NULL) {
                 throw exception("Index out of bounds.");
             } else {

@@ -17,7 +17,6 @@ class Collector {
 public:
 
     Node* ReserveMem(int value){
-        Node* temp;
         if (available.empty()){
             Node* temp = new Node(value);
             in_use.push_back(temp);
