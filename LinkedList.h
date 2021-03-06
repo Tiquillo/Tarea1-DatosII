@@ -6,8 +6,11 @@
 #define TAREAI_DATOSII_LINKEDLIST_H
 
 
+#include <iostream>
 #include "Node.h"
 #include "Collector.h"
+
+using namespace std;
 
 class LinkedList {
 
@@ -16,38 +19,55 @@ class LinkedList {
 
 public:
 
+    Collector memoryManager;
+
     LinkedList()
     {
         length = 0;
-        first = nullptr;
-        Collector memoryManager = Collector();
+        memoryManager = Collector();
+        first = NULL;
     }
 
     void Add(int value) {
-        if (first == nullptr) {
-            first = memoryMaganer->ReserveSpace(value);
+        if (first == NULL) {
+            first = memoryManager.ReserveMem(value);
             length++;
         } else {
             AddRecursively(value, first);
         }
     }
 
-    int GetByIndex(int index){
+    int Get(int index){
+        if (first == NULL) {
+            throw exception("Empty list.");
+        }
         return GetByIndexRecursively(index, first);
-    }
-
-    int GetByValue(int value){
-        return 0;
     }
 
     int Length(){
         return length;
     }
 
+    void Remove(int index){
+        if (first == NULL) {
+            throw exception("List is empty.");
+        } else if (index == 0){
+            if (length == 0) {
+                memoryManager.UnasignMem(first);
+                first = NULL;
+            } else {
+
+            }
+        } else{
+            RemoveRecursively(index, first);
+        }
+        length--;
+    }
+
 private:
     void AddRecursively (int value, Node* node){
-        if (node->next == nullptr){
-            node->next = new Node(value);
+        if (node->next == NULL){
+            node->next = memoryManager.ReserveMem(value);
             length++;
         } else {
             AddRecursively(value, node->next);
@@ -56,9 +76,27 @@ private:
 
     int GetByIndexRecursively(int index, Node* node){
         if (index == 0) {
+            if (node == NULL) {
+                throw exception("Index out of bounds.");
+            }
             return node->value;
         } else {
             GetByIndexRecursively(index-1, node->next);
+        }
+    }
+
+    void RemoveRecursively(int index, Node* node){
+        if (index == 1) {
+            if (node == NULL) {
+                throw exception("Index out of bounds.");
+            } else {
+                Node* temp = node->next;
+                node->next = temp->next;
+                memoryManager.UnasignMem(temp);
+                temp = NULL;
+            }
+        } else {
+            RemoveRecursively(index-1, node->next);
         }
     }
 

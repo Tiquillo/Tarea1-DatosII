@@ -17,7 +17,7 @@ public:
 
     Node(int value){
         this->value = value;
-        next = nullptr;
+        next = NULL;
     }
 };
 

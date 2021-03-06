@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/luis/Escritorio/Proyecto/TareaI-DatosII/Collector.cpp" "/home/luis/Escritorio/Proyecto/TareaI-DatosII/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/Collector.cpp.o"
-  "/home/luis/Escritorio/Proyecto/TareaI-DatosII/LinkedList.cpp" "/home/luis/Escritorio/Proyecto/TareaI-DatosII/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/LinkedList.cpp.o"
-  "/home/luis/Escritorio/Proyecto/TareaI-DatosII/Node.cpp" "/home/luis/Escritorio/Proyecto/TareaI-DatosII/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/Node.cpp.o"
-  "/home/luis/Escritorio/Proyecto/TareaI-DatosII/main.cpp" "/home/luis/Escritorio/Proyecto/TareaI-DatosII/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/main.cpp.o"
+  "D:/OneDrive - Estudiantes ITCR/TEC/2021 I/Algoritmos y Estructuras de Datos II/Repositorios de git/Tarea1-DatosII/Collector.cpp" "D:/OneDrive - Estudiantes ITCR/TEC/2021 I/Algoritmos y Estructuras de Datos II/Repositorios de git/Tarea1-DatosII/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/Collector.cpp.obj"
+  "D:/OneDrive - Estudiantes ITCR/TEC/2021 I/Algoritmos y Estructuras de Datos II/Repositorios de git/Tarea1-DatosII/LinkedList.cpp" "D:/OneDrive - Estudiantes ITCR/TEC/2021 I/Algoritmos y Estructuras de Datos II/Repositorios de git/Tarea1-DatosII/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/LinkedList.cpp.obj"
+  "D:/OneDrive - Estudiantes ITCR/TEC/2021 I/Algoritmos y Estructuras de Datos II/Repositorios de git/Tarea1-DatosII/Node.cpp" "D:/OneDrive - Estudiantes ITCR/TEC/2021 I/Algoritmos y Estructuras de Datos II/Repositorios de git/Tarea1-DatosII/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/Node.cpp.obj"
+  "D:/OneDrive - Estudiantes ITCR/TEC/2021 I/Algoritmos y Estructuras de Datos II/Repositorios de git/Tarea1-DatosII/main.cpp" "D:/OneDrive - Estudiantes ITCR/TEC/2021 I/Algoritmos y Estructuras de Datos II/Repositorios de git/Tarea1-DatosII/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/main.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "MSVC")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

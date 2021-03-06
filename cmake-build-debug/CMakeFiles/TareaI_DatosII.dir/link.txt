@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/TareaI_DatosII.dir/main.cpp.o CMakeFiles/TareaI_DatosII.dir/Node.cpp.o CMakeFiles/TareaI_DatosII.dir/LinkedList.cpp.o CMakeFiles/TareaI_DatosII.dir/Collector.cpp.o  -o TareaI_DatosII 

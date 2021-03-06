@@ -6,6 +6,7 @@
 #define TAREAI_DATOSII_COLLECTOR_H
 
 #include <list>
+#include <iostream>
 #include "Node.h"
 
 using namespace std;
@@ -14,32 +15,40 @@ class Collector {
     list <Node*> in_use;
     list <Node*> available;
 public:
-    Collector(){
-    }
 
-    Node* ReserveSpace(){
-        int* temp;
+    Node* ReserveMem(int value){
+        Node* temp;
         if (available.empty()){
-            Node* temp = malloc(sizeof(Node));
+            Node* temp = new Node(value);
+            in_use.push_back(temp);
+            return temp;
+
         } else {
-            Node* temp = available.back();
+            Node *temp = available.back();
             available.remove(temp);
+            in_use.push_back(temp);
+            return temp;
         }
 
-        in_use.push_back(temp);
-        return temp;
-
     }
 
-    void FreeSpace(Node* pointer){
+    void UnasignMem(Node* pointer){
         in_use.remove(pointer);
-        pointer = nullptr;
+        pointer = NULL;
         available.push_back(pointer);
     }
 
     void FreeAllPointers(){
-        in_use.clear();
-        available.clear();
+        while (!available.empty()){
+            Node* temp = available.back();
+            available.remove(temp);
+            delete temp;
+        }
+        while (in_use.empty()){
+            Node* temp = available.back();
+            in_use.remove(temp);
+            delete temp;
+        }
     }
 };
 
