@@ -6,8 +6,6 @@
 #define TAREAI_DATOSII_NODE_H
 
 
-#include <algorithm>
-
 class Node {
 
 public:
@@ -15,10 +13,7 @@ public:
     int value;
     Node *next;
 
-    Node(int value){
-        this->value = value;
-        next = NULL;
-    }
+    Node(int value);
 };
 
 

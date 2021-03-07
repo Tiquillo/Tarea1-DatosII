@@ -80,23 +80,23 @@ CMakeFiles\TareaI_DatosII.dir\main.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\TareaI_DatosII.dir\main.cpp.s /c "D:\OneDrive - Estudiantes ITCR\TEC\2021 I\Algoritmos y Estructuras de Datos II\Repositorios de git\Tarea1-DatosII\main.cpp"
 <<
 
-CMakeFiles\TareaI_DatosII.dir\Node.cpp.obj: CMakeFiles\TareaI_DatosII.dir\flags.make
-CMakeFiles\TareaI_DatosII.dir\Node.cpp.obj: ..\Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\OneDrive - Estudiantes ITCR\TEC\2021 I\Algoritmos y Estructuras de Datos II\Repositorios de git\Tarea1-DatosII\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TareaI_DatosII.dir/Node.cpp.obj"
+CMakeFiles\TareaI_DatosII.dir\Collector.cpp.obj: CMakeFiles\TareaI_DatosII.dir\flags.make
+CMakeFiles\TareaI_DatosII.dir\Collector.cpp.obj: ..\Collector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\OneDrive - Estudiantes ITCR\TEC\2021 I\Algoritmos y Estructuras de Datos II\Repositorios de git\Tarea1-DatosII\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TareaI_DatosII.dir/Collector.cpp.obj"
 	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\TareaI_DatosII.dir\Node.cpp.obj /FdCMakeFiles\TareaI_DatosII.dir\ /FS -c "D:\OneDrive - Estudiantes ITCR\TEC\2021 I\Algoritmos y Estructuras de Datos II\Repositorios de git\Tarea1-DatosII\Node.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\TareaI_DatosII.dir\Collector.cpp.obj /FdCMakeFiles\TareaI_DatosII.dir\ /FS -c "D:\OneDrive - Estudiantes ITCR\TEC\2021 I\Algoritmos y Estructuras de Datos II\Repositorios de git\Tarea1-DatosII\Collector.cpp"
 <<
 
-CMakeFiles\TareaI_DatosII.dir\Node.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TareaI_DatosII.dir/Node.cpp.i"
-	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\TareaI_DatosII.dir\Node.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\OneDrive - Estudiantes ITCR\TEC\2021 I\Algoritmos y Estructuras de Datos II\Repositorios de git\Tarea1-DatosII\Node.cpp"
+CMakeFiles\TareaI_DatosII.dir\Collector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TareaI_DatosII.dir/Collector.cpp.i"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\TareaI_DatosII.dir\Collector.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\OneDrive - Estudiantes ITCR\TEC\2021 I\Algoritmos y Estructuras de Datos II\Repositorios de git\Tarea1-DatosII\Collector.cpp"
 <<
 
-CMakeFiles\TareaI_DatosII.dir\Node.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TareaI_DatosII.dir/Node.cpp.s"
+CMakeFiles\TareaI_DatosII.dir\Collector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TareaI_DatosII.dir/Collector.cpp.s"
 	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\TareaI_DatosII.dir\Node.cpp.s /c "D:\OneDrive - Estudiantes ITCR\TEC\2021 I\Algoritmos y Estructuras de Datos II\Repositorios de git\Tarea1-DatosII\Node.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\TareaI_DatosII.dir\Collector.cpp.s /c "D:\OneDrive - Estudiantes ITCR\TEC\2021 I\Algoritmos y Estructuras de Datos II\Repositorios de git\Tarea1-DatosII\Collector.cpp"
 <<
 
 CMakeFiles\TareaI_DatosII.dir\LinkedList.cpp.obj: CMakeFiles\TareaI_DatosII.dir\flags.make
@@ -118,39 +118,39 @@ CMakeFiles\TareaI_DatosII.dir\LinkedList.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\TareaI_DatosII.dir\LinkedList.cpp.s /c "D:\OneDrive - Estudiantes ITCR\TEC\2021 I\Algoritmos y Estructuras de Datos II\Repositorios de git\Tarea1-DatosII\LinkedList.cpp"
 <<
 
-CMakeFiles\TareaI_DatosII.dir\Collector.cpp.obj: CMakeFiles\TareaI_DatosII.dir\flags.make
-CMakeFiles\TareaI_DatosII.dir\Collector.cpp.obj: ..\Collector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\OneDrive - Estudiantes ITCR\TEC\2021 I\Algoritmos y Estructuras de Datos II\Repositorios de git\Tarea1-DatosII\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TareaI_DatosII.dir/Collector.cpp.obj"
+CMakeFiles\TareaI_DatosII.dir\Node.cpp.obj: CMakeFiles\TareaI_DatosII.dir\flags.make
+CMakeFiles\TareaI_DatosII.dir\Node.cpp.obj: ..\Node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\OneDrive - Estudiantes ITCR\TEC\2021 I\Algoritmos y Estructuras de Datos II\Repositorios de git\Tarea1-DatosII\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TareaI_DatosII.dir/Node.cpp.obj"
 	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\TareaI_DatosII.dir\Collector.cpp.obj /FdCMakeFiles\TareaI_DatosII.dir\ /FS -c "D:\OneDrive - Estudiantes ITCR\TEC\2021 I\Algoritmos y Estructuras de Datos II\Repositorios de git\Tarea1-DatosII\Collector.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\TareaI_DatosII.dir\Node.cpp.obj /FdCMakeFiles\TareaI_DatosII.dir\ /FS -c "D:\OneDrive - Estudiantes ITCR\TEC\2021 I\Algoritmos y Estructuras de Datos II\Repositorios de git\Tarea1-DatosII\Node.cpp"
 <<
 
-CMakeFiles\TareaI_DatosII.dir\Collector.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TareaI_DatosII.dir/Collector.cpp.i"
-	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\TareaI_DatosII.dir\Collector.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\OneDrive - Estudiantes ITCR\TEC\2021 I\Algoritmos y Estructuras de Datos II\Repositorios de git\Tarea1-DatosII\Collector.cpp"
+CMakeFiles\TareaI_DatosII.dir\Node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TareaI_DatosII.dir/Node.cpp.i"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\TareaI_DatosII.dir\Node.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\OneDrive - Estudiantes ITCR\TEC\2021 I\Algoritmos y Estructuras de Datos II\Repositorios de git\Tarea1-DatosII\Node.cpp"
 <<
 
-CMakeFiles\TareaI_DatosII.dir\Collector.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TareaI_DatosII.dir/Collector.cpp.s"
+CMakeFiles\TareaI_DatosII.dir\Node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TareaI_DatosII.dir/Node.cpp.s"
 	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\TareaI_DatosII.dir\Collector.cpp.s /c "D:\OneDrive - Estudiantes ITCR\TEC\2021 I\Algoritmos y Estructuras de Datos II\Repositorios de git\Tarea1-DatosII\Collector.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\TareaI_DatosII.dir\Node.cpp.s /c "D:\OneDrive - Estudiantes ITCR\TEC\2021 I\Algoritmos y Estructuras de Datos II\Repositorios de git\Tarea1-DatosII\Node.cpp"
 <<
 
 # Object files for target TareaI_DatosII
 TareaI_DatosII_OBJECTS = \
 "CMakeFiles\TareaI_DatosII.dir\main.cpp.obj" \
-"CMakeFiles\TareaI_DatosII.dir\Node.cpp.obj" \
+"CMakeFiles\TareaI_DatosII.dir\Collector.cpp.obj" \
 "CMakeFiles\TareaI_DatosII.dir\LinkedList.cpp.obj" \
-"CMakeFiles\TareaI_DatosII.dir\Collector.cpp.obj"
+"CMakeFiles\TareaI_DatosII.dir\Node.cpp.obj"
 
 # External object files for target TareaI_DatosII
 TareaI_DatosII_EXTERNAL_OBJECTS =
 
 TareaI_DatosII.exe: CMakeFiles\TareaI_DatosII.dir\main.cpp.obj
-TareaI_DatosII.exe: CMakeFiles\TareaI_DatosII.dir\Node.cpp.obj
-TareaI_DatosII.exe: CMakeFiles\TareaI_DatosII.dir\LinkedList.cpp.obj
 TareaI_DatosII.exe: CMakeFiles\TareaI_DatosII.dir\Collector.cpp.obj
+TareaI_DatosII.exe: CMakeFiles\TareaI_DatosII.dir\LinkedList.cpp.obj
+TareaI_DatosII.exe: CMakeFiles\TareaI_DatosII.dir\Node.cpp.obj
 TareaI_DatosII.exe: CMakeFiles\TareaI_DatosII.dir\build.make
 TareaI_DatosII.exe: CMakeFiles\TareaI_DatosII.dir\objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\OneDrive - Estudiantes ITCR\TEC\2021 I\Algoritmos y Estructuras de Datos II\Repositorios de git\Tarea1-DatosII\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable TareaI_DatosII.exe"
