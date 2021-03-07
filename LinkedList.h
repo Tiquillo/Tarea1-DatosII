@@ -14,6 +14,8 @@ class LinkedList {
 
 public:
 
+    Collector memoryManager;
+
     LinkedList();
 
     void Add(int value);
@@ -25,8 +27,6 @@ public:
     void Remove(int index);
 
 private:
-
-    Collector memoryManager;
 
     void AddRecursively (int value, Node* node);
 
