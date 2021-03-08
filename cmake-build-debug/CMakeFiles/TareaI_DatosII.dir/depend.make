@@ -3,18 +3,19 @@
 
 CMakeFiles\TareaI_DatosII.dir\Collector.cpp.obj: ..\Collector.cpp
 CMakeFiles\TareaI_DatosII.dir\Collector.cpp.obj: ..\Collector.h
+CMakeFiles\TareaI_DatosII.dir\Collector.cpp.obj: ..\List.h
 CMakeFiles\TareaI_DatosII.dir\Collector.cpp.obj: ..\Node.h
 
-CMakeFiles\TareaI_DatosII.dir\LinkedList.cpp.obj: ..\Collector.h
-CMakeFiles\TareaI_DatosII.dir\LinkedList.cpp.obj: ..\LinkedList.cpp
-CMakeFiles\TareaI_DatosII.dir\LinkedList.cpp.obj: ..\LinkedList.h
-CMakeFiles\TareaI_DatosII.dir\LinkedList.cpp.obj: ..\Node.h
+CMakeFiles\TareaI_DatosII.dir\List.cpp.obj: ..\List.cpp
+CMakeFiles\TareaI_DatosII.dir\List.cpp.obj: ..\List.h
+CMakeFiles\TareaI_DatosII.dir\List.cpp.obj: ..\Node.h
 
+CMakeFiles\TareaI_DatosII.dir\Node.cpp.obj: ..\Collector.h
+CMakeFiles\TareaI_DatosII.dir\Node.cpp.obj: ..\List.h
 CMakeFiles\TareaI_DatosII.dir\Node.cpp.obj: ..\Node.cpp
 CMakeFiles\TareaI_DatosII.dir\Node.cpp.obj: ..\Node.h
 
-CMakeFiles\TareaI_DatosII.dir\main.cpp.obj: ..\Collector.h
-CMakeFiles\TareaI_DatosII.dir\main.cpp.obj: ..\LinkedList.h
+CMakeFiles\TareaI_DatosII.dir\main.cpp.obj: ..\List.h
 CMakeFiles\TareaI_DatosII.dir\main.cpp.obj: ..\Node.h
 CMakeFiles\TareaI_DatosII.dir\main.cpp.obj: ..\main.cpp
 

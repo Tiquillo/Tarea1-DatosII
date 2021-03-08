@@ -14,6 +14,8 @@ public:
     Node *next;
 
     Node(int value);
+
+    void* operator new(size_t size);
 };
 
 

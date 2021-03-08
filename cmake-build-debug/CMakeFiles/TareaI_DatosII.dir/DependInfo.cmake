@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/OneDrive - Estudiantes ITCR/TEC/2021 I/Algoritmos y Estructuras de Datos II/Repositorios de git/Tarea1-DatosII/Collector.cpp" "D:/OneDrive - Estudiantes ITCR/TEC/2021 I/Algoritmos y Estructuras de Datos II/Repositorios de git/Tarea1-DatosII/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/Collector.cpp.obj"
-  "D:/OneDrive - Estudiantes ITCR/TEC/2021 I/Algoritmos y Estructuras de Datos II/Repositorios de git/Tarea1-DatosII/LinkedList.cpp" "D:/OneDrive - Estudiantes ITCR/TEC/2021 I/Algoritmos y Estructuras de Datos II/Repositorios de git/Tarea1-DatosII/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/LinkedList.cpp.obj"
+  "D:/OneDrive - Estudiantes ITCR/TEC/2021 I/Algoritmos y Estructuras de Datos II/Repositorios de git/Tarea1-DatosII/List.cpp" "D:/OneDrive - Estudiantes ITCR/TEC/2021 I/Algoritmos y Estructuras de Datos II/Repositorios de git/Tarea1-DatosII/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/List.cpp.obj"
   "D:/OneDrive - Estudiantes ITCR/TEC/2021 I/Algoritmos y Estructuras de Datos II/Repositorios de git/Tarea1-DatosII/Node.cpp" "D:/OneDrive - Estudiantes ITCR/TEC/2021 I/Algoritmos y Estructuras de Datos II/Repositorios de git/Tarea1-DatosII/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/Node.cpp.obj"
   "D:/OneDrive - Estudiantes ITCR/TEC/2021 I/Algoritmos y Estructuras de Datos II/Repositorios de git/Tarea1-DatosII/main.cpp" "D:/OneDrive - Estudiantes ITCR/TEC/2021 I/Algoritmos y Estructuras de Datos II/Repositorios de git/Tarea1-DatosII/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/main.cpp.obj"
   )

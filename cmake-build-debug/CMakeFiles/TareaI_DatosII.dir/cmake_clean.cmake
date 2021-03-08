@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/TareaI_DatosII.dir/Collector.cpp.obj"
-  "CMakeFiles/TareaI_DatosII.dir/LinkedList.cpp.obj"
+  "CMakeFiles/TareaI_DatosII.dir/List.cpp.obj"
   "CMakeFiles/TareaI_DatosII.dir/Node.cpp.obj"
   "CMakeFiles/TareaI_DatosII.dir/main.cpp.obj"
   "TareaI_DatosII.exe"

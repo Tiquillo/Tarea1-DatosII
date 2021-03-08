@@ -3,4 +3,4 @@ project(TareaI_DatosII)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(TareaI_DatosII main.cpp Node.h LinkedList.h Collector.h Collector.cpp Collector.h LinkedList.cpp LinkedList.h Node.cpp)
+add_executable(TareaI_DatosII main.cpp Node.h List.h Collector.h Collector.cpp Collector.h List.cpp List.h Node.cpp)

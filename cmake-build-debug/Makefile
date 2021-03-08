@@ -154,32 +154,32 @@ Collector.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TareaI_DatosII.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TareaI_DatosII.dir\Collector.cpp.s
 .PHONY : Collector.cpp.s
 
-LinkedList.obj: LinkedList.cpp.obj
+List.obj: List.cpp.obj
 
-.PHONY : LinkedList.obj
+.PHONY : List.obj
 
 # target to build an object file
-LinkedList.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TareaI_DatosII.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TareaI_DatosII.dir\LinkedList.cpp.obj
-.PHONY : LinkedList.cpp.obj
+List.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TareaI_DatosII.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TareaI_DatosII.dir\List.cpp.obj
+.PHONY : List.cpp.obj
 
-LinkedList.i: LinkedList.cpp.i
+List.i: List.cpp.i
 
-.PHONY : LinkedList.i
+.PHONY : List.i
 
 # target to preprocess a source file
-LinkedList.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TareaI_DatosII.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TareaI_DatosII.dir\LinkedList.cpp.i
-.PHONY : LinkedList.cpp.i
+List.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TareaI_DatosII.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TareaI_DatosII.dir\List.cpp.i
+.PHONY : List.cpp.i
 
-LinkedList.s: LinkedList.cpp.s
+List.s: List.cpp.s
 
-.PHONY : LinkedList.s
+.PHONY : List.s
 
 # target to generate assembly for a file
-LinkedList.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TareaI_DatosII.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TareaI_DatosII.dir\LinkedList.cpp.s
-.PHONY : LinkedList.cpp.s
+List.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TareaI_DatosII.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TareaI_DatosII.dir\List.cpp.s
+.PHONY : List.cpp.s
 
 Node.obj: Node.cpp.obj
 
@@ -247,9 +247,9 @@ help:
 	@echo ... Collector.obj
 	@echo ... Collector.i
 	@echo ... Collector.s
-	@echo ... LinkedList.obj
-	@echo ... LinkedList.i
-	@echo ... LinkedList.s
+	@echo ... List.obj
+	@echo ... List.i
+	@echo ... List.s
 	@echo ... Node.obj
 	@echo ... Node.i
 	@echo ... Node.s

@@ -5,21 +5,22 @@
 #ifndef TAREAI_DATOSII_COLLECTOR_H
 #define TAREAI_DATOSII_COLLECTOR_H
 
+#include "List.h"
 #include "Node.h"
-#include <list>
 
-class Collector {
-    std::list <Node*> in_use;
-    std::list <Node*> available;
+class Collector{
+
+    //static List collectorList;
+
+    Collector() = delete;
 
 public:
-    Collector();
 
-    Node* ReserveMem(int value);
+    static bool MemAvailable();
 
-    void UnasignMem(Node* pointer);
+    static Node* AskMem();
 
-    void FreeAllPointers();
+    static void SaveMem(Node* node);
 };
 
 
