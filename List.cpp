@@ -173,13 +173,18 @@ void List::RemoveRecursively(int index, Node* node, bool specialNode) {
         first = temp;
 
     } else if (index == 1){
+        cout << "HOLAAA\n";
         Node* temp = node->next;
+        temp->next = nullptr;
         node->next = node->next->next;
         delete temp;
+
 
     } else if (index == 2) {
         if (node == nullptr) {
             throw exception("Index out of bounds.");
+        } else {
+            RemoveRecursively(index-1, node->next);
         }
     } else {
         RemoveRecursively(index-1, node->next);

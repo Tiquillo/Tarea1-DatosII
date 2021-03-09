@@ -22,6 +22,9 @@ int main() {
     lista.AddFront(16);
 
     lista.Remove(0);
+
+    cout << lista.Get(3) << "\n";
+
     lista.Remove(3);
 
     lista.PrintList();
