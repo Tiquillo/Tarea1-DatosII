@@ -10,16 +10,17 @@
 
 class Collector{
 
-    List collectorList;
+
     static Collector* instance;
 
 public:
+    List collectorList;
 
     Collector();
 
     static Collector* GetInstance();
 
-    bool MemAvailable();
+    bool AreThereMemCellsAvailable() const;
 
     Node* AskMem();
 

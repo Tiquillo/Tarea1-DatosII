@@ -5,6 +5,9 @@
 #include <cstdlib>
 #include "Node.h"
 #include "Collector.h"
+#include <iostream>
+
+using namespace std;
 
 Node::Node() {
     this->value = NULL;
@@ -12,7 +15,7 @@ Node::Node() {
 }
 
 void* Node::operator new (size_t size) {
-    if (Collector::GetInstance()->MemAvailable()){
+    if (Collector::GetInstance()->AreThereMemCellsAvailable()){
         return Collector::GetInstance()->AskMem();
     } else {
         return malloc(size);
@@ -20,6 +23,7 @@ void* Node::operator new (size_t size) {
 }
 
 void Node::operator delete(void *pVoid){
+    ((Node*)pVoid)->next = nullptr;
     Collector::GetInstance()->SaveMem((Node*)pVoid);
     Collector::GetInstance()->PrintCollectorList();
 }

@@ -18,18 +18,6 @@
       <change beforePath="$PROJECT_DIR$/List.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/List.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/List.h" beforeDir="false" afterPath="$PROJECT_DIR$/List.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Node.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Node.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Node.h" beforeDir="false" afterPath="$PROJECT_DIR$/Node.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/Collector.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/Collector.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/List.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/List.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/Node.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/Node.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/vc140.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/TareaI_DatosII.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/TareaI_DatosII.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/TareaI_DatosII.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/TareaI_DatosII.ilk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/TareaI_DatosII.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/TareaI_DatosII.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
@@ -73,19 +61,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TareaI_DatosII" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TareaI_DatosII" TARGET_NAME="TareaI_DatosII" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TareaI_DatosII" RUN_TARGET_NAME="TareaI_DatosII">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -104,6 +87,8 @@
       <workItem from="1615011695155" duration="107000" />
       <workItem from="1615089891261" duration="17102000" />
       <workItem from="1615175401255" duration="8882000" />
+      <workItem from="1615325213030" duration="44000" />
+      <workItem from="1615325407566" duration="5241000" />
     </task>
     <servers />
   </component>

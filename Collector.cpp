@@ -13,16 +13,12 @@ Collector::Collector() {
     collectorList = List();
 }
 
-bool Collector::MemAvailable() {
+bool Collector::AreThereMemCellsAvailable() const {
     return collectorList.Length() > 0;
-    return false;
 }
 
 Node* Collector::AskMem() {
-    Node *temp = collectorList.GetNode(0);
-    collectorList.Remove(temp);
-    return temp;
-    return nullptr;
+    return collectorList.GetRemoveFirst();
 }
 
 Collector* Collector::GetInstance() {
@@ -38,8 +34,6 @@ void Collector::SaveMem(Node *node) {
 
 void Collector::PrintCollectorList() {
     cout << "\nLista de collector (largo " << collectorList.Length() << "): \n";
-    for (int i = 0; i < collectorList.Length(); i++){
-        cout << collectorList.Get(i) << " ";
-    }
+    collectorList.PrintList();
     cout << "\n---------------------------------------------\n\n";
 }

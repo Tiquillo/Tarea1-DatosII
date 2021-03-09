@@ -11,14 +11,17 @@ int main() {
 
     cout << "\nInicio\n";
 
-    lista.AddFront(12);
+    lista.AddFront(11);
 
     lista.Remove(0);
 
-    lista.AddFront(22);
+    lista.AddFront(12);
+    lista.AddFront(13);
+    lista.AddFront(14);
+    lista.AddFront(15);
+    lista.AddFront(16);
 
-    lista.PrintList();
-    Collector::GetInstance()->PrintCollectorList();
+
 
     return 0;
 }

@@ -35,6 +35,8 @@ public:
 
     void PrintList();
 
+    Node* GetRemoveFirst();
+
 private:
 
     void AddRecursively (int value, Node* node);
@@ -50,6 +52,8 @@ private:
     void RemoveRecursively(int index, Node* node, bool specialNode = false);
 
     void RemoveNodeRecursively(Node* nodeToRemove, Node *node);
+
+    void PrintRecursively(Node* nodo);
 };
 
 
