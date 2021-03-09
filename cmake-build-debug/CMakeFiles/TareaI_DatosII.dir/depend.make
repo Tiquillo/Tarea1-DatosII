@@ -15,6 +15,7 @@ CMakeFiles\TareaI_DatosII.dir\Node.cpp.obj: ..\List.h
 CMakeFiles\TareaI_DatosII.dir\Node.cpp.obj: ..\Node.cpp
 CMakeFiles\TareaI_DatosII.dir\Node.cpp.obj: ..\Node.h
 
+CMakeFiles\TareaI_DatosII.dir\main.cpp.obj: ..\Collector.h
 CMakeFiles\TareaI_DatosII.dir\main.cpp.obj: ..\List.h
 CMakeFiles\TareaI_DatosII.dir\main.cpp.obj: ..\Node.h
 CMakeFiles\TareaI_DatosII.dir\main.cpp.obj: ..\main.cpp

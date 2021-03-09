@@ -15,23 +15,36 @@ List::List()
 
 void List::AddFront(int value) {
     if (first == nullptr) {
-        first = new Node(value);
+        first = new Node();
+        first->value = value
     } else {
         Node* temp = first;
-        first = new Node(value);
+        first = new Node();
+        first->value = value;
         first->next = temp;
     }
     length++;
 }
 
 void List::AddFront(Node *node) {
-
+    if (first == nullptr){
+        first = node;
+        first->value = NULL;
+        first->next = nullptr;
+    } else {
+        Node* temp = first;
+        first = node;
+        first->next = temp;
+        first->value = NULL;
+    }
     length++;
 }
 
 void List::AddBack(int value) {
     if (first == nullptr) {
-        first = new Node(value);
+        first = new Node();
+        first->value = value;
+        first->next = nullptr;
     } else {
         AddRecursively(value, first);
     }
@@ -41,6 +54,8 @@ void List::AddBack(int value) {
 void List::AddBack(Node *node) {
     if (first == nullptr) {
         first = node;
+        first->value = NULL;
+        first->next = nullptr;
     } else {
         AddRecursively(first, node);
     }
@@ -77,6 +92,10 @@ void List::Remove(int index){
     if (first == nullptr) {
         throw exception("List is empty.");
 
+    } else if (index == 0) {
+        Node* temp = first;
+        first = first->next;
+        delete temp;
     } else{
         RemoveRecursively(index, first);
     }
@@ -84,13 +103,14 @@ void List::Remove(int index){
 }
 
 void List::Remove(Node *node) {
-
 }
 
 void List::AddRecursively (int value, Node* node){
 
     if (node->next == nullptr){
-        node->next = new Node(value);
+        node->next = new Node();
+        node->next->value = value;
+        node->next->next = nullptr;
 
     } else {
         AddRecursively(value, node->next);
@@ -101,6 +121,7 @@ void List::AddRecursively (Node* nodeToAdd, Node* node){
 
     if (node->next == nullptr){
         node->next = nodeToAdd;
+        node->next->next = nullptr;
 
     } else {
         AddRecursively(node, node->next);
@@ -175,4 +196,12 @@ void List::RemoveNodeRecursively(Node* nodeToRemove, Node* node){
     } else {
         RemoveNodeRecursively(nodeToRemove, node->next);
     }
+}
+
+void List::PrintList() {
+    cout << "\nLista (largo " <<length << "): \n";
+    for (int i = 0; i < length; i++){
+        cout << Get(i) << " ";
+    }
+    cout << "\n============================================\n\n";
 }

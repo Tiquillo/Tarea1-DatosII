@@ -33,6 +33,8 @@ public:
 
     void Remove(Node* node);
 
+    void PrintList();
+
 private:
 
     void AddRecursively (int value, Node* node);

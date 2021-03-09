@@ -6,15 +6,20 @@
 #include "Node.h"
 #include "Collector.h"
 
-Node::Node(int value) {
-    this->value = value;
+Node::Node() {
+    this->value = NULL;
     next = nullptr;
 }
 
 void* Node::operator new (size_t size) {
-    if (Collector::MemAvailable()){
-        return Collector::AskMem();
+    if (Collector::GetInstance()->MemAvailable()){
+        return Collector::GetInstance()->AskMem();
     } else {
         return malloc(size);
     }
+}
+
+void Node::operator delete(void *pVoid){
+    Collector::GetInstance()->SaveMem((Node*)pVoid);
+    Collector::GetInstance()->PrintCollectorList();
 }
