@@ -25,5 +25,4 @@ void* Node::operator new (size_t size) {
 void Node::operator delete(void *pVoid){
     ((Node*)pVoid)->next = nullptr;
     Collector::GetInstance()->SaveMem((Node*)pVoid);
-    Collector::GetInstance()->PrintCollectorList();
 }

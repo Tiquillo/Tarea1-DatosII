@@ -21,7 +21,11 @@ int main() {
     lista.AddFront(15);
     lista.AddFront(16);
 
+    lista.Remove(0);
+    lista.Remove(3);
 
+    lista.PrintList();
+    Collector::GetInstance()->PrintCollectorList();
 
     return 0;
 }

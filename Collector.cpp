@@ -34,6 +34,6 @@ void Collector::SaveMem(Node *node) {
 
 void Collector::PrintCollectorList() {
     cout << "\nLista de collector (largo " << collectorList.Length() << "): \n";
-    collectorList.PrintList();
+    collectorList.PrintList(true);
     cout << "\n---------------------------------------------\n\n";
 }

@@ -12,9 +12,9 @@ class Collector{
 
 
     static Collector* instance;
+    List collectorList;
 
 public:
-    List collectorList;
 
     Collector();
 

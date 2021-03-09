@@ -33,7 +33,7 @@ public:
 
     void Remove(Node* node);
 
-    void PrintList();
+    void PrintList(bool collector = false);
 
     Node* GetRemoveFirst();
 

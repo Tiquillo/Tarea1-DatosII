@@ -197,7 +197,11 @@ void List::RemoveNodeRecursively(Node* nodeToRemove, Node* node){
     }
 }
 
-void List::PrintList() {
+void List::PrintList(bool collector) {
+    if (collector) {
+        PrintRecursively(first);
+        return;
+    }
     cout << "\nLista (largo " <<length << "): \n";
     PrintRecursively(first);
     cout << "\n============================================\n\n";
