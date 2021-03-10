@@ -140,7 +140,7 @@ void List::PrintList(bool collector) {
     }
     cout << "\nLista (largo " <<length << "): \n";
     PrintRecursively(first);
-    cout << "\n============================================\n\n";
+    cout << "\n============================================\n";
 }
 
 void List::PrintRecursively(Node *node) {
