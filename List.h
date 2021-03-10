@@ -19,25 +19,17 @@ public:
 
     void AddFront(Node* node);
 
-    void AddBack(int value);
-
-    void AddBack(Node* node);
-
     int Get(int intVal, bool byval = false);
-
-    Node* GetNode(int index);
 
     int Length() const;
 
     void Remove(int index);
 
-    void Remove(Node* node);
+    void PrintList(bool collector = false);
+
+    Node* GetRemoveFirst();
 
 private:
-
-    void AddRecursively (int value, Node* node);
-
-    void AddRecursively (Node* nodeToAdd, Node* node);
 
     int GetByIndexRecursively(int index, Node* node);
 
@@ -47,7 +39,7 @@ private:
 
     void RemoveRecursively(int index, Node* node, bool specialNode = false);
 
-    void RemoveNodeRecursively(Node* nodeToRemove, Node *node);
+    void PrintRecursively(Node* nodo);
 };
 
 

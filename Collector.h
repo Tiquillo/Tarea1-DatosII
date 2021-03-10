@@ -10,17 +10,23 @@
 
 class Collector{
 
-    //static List collectorList;
 
-    Collector() = delete;
+    static Collector* instance;
+    List collectorList;
 
 public:
 
-    static bool MemAvailable();
+    Collector();
 
-    static Node* AskMem();
+    static Collector* GetInstance();
 
-    static void SaveMem(Node* node);
+    bool AreThereMemCellsAvailable() const;
+
+    Node* AskMem();
+
+    void SaveMem(Node* node);
+
+    void PrintCollectorList();
 };
 
 

@@ -5,16 +5,24 @@
 #include <cstdlib>
 #include "Node.h"
 #include "Collector.h"
+#include <iostream>
 
-Node::Node(int value) {
-    this->value = value;
+using namespace std;
+
+Node::Node() {
+    this->value = NULL;
     next = nullptr;
 }
 
 void* Node::operator new (size_t size) {
-    if (Collector::MemAvailable()){
-        return Collector::AskMem();
+    if (Collector::GetInstance()->AreThereMemCellsAvailable()){
+        return Collector::GetInstance()->AskMem();
     } else {
         return malloc(size);
     }
+}
+
+void Node::operator delete(void *pVoid){
+    ((Node*)pVoid)->next = nullptr;
+    Collector::GetInstance()->SaveMem((Node*)pVoid);
 }
