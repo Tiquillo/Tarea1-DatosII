@@ -29,7 +29,7 @@ Collector* Collector::GetInstance() {
 }
 
 void Collector::SaveMem(Node *node) {
-    collectorList.AddBack(node);
+    collectorList.AddFront(node);
 }
 
 void Collector::PrintCollectorList() {

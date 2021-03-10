@@ -20,12 +20,15 @@ int main() {
     lista.AddFront(14);
     lista.AddFront(15);
     lista.AddFront(16);
+    lista.AddFront(28793649);
 
-    lista.Remove(0);
-
-    cout << lista.Get(3) << "\n";
-
+    lista.Remove(4);
     lista.Remove(3);
+    lista.Remove(2);
+    lista.Remove(1);
+
+    lista.AddFront(2);
+    lista.AddFront(3);
 
     lista.PrintList();
     Collector::GetInstance()->PrintCollectorList();
