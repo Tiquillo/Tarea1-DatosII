@@ -8,12 +8,22 @@
 
 class Node {
 
-public:
+private:
 
     int value;
     Node *next;
 
+public:
+
     Node();
+
+    void SetValue(int value);
+
+    int GetValue() const;
+
+    void SetNext(Node* next);
+
+    Node* GetNext();
 
     void* operator new(size_t size);
 

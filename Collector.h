@@ -10,6 +10,7 @@
 
 class Collector{
 
+private:
 
     static Collector* instance;
     List collectorList;

@@ -13,8 +13,10 @@
   <component name="ChangeListManager">
     <list default="true" id="984f6f14-095a-4247-9249-86a190a2127d" name="Default Changelist" comment="All repaired. Remove method works with any index">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Collector.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collector.h" beforeDir="false" afterPath="$PROJECT_DIR$/Collector.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/List.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/List.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Node.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node.h" beforeDir="false" afterPath="$PROJECT_DIR$/Node.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/Collector.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/Collector.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/List.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/List.cpp.obj" afterDir="false" />
@@ -64,7 +66,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
   <component name="RunManager">
     <configuration name="TareaI_DatosII" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TareaI_DatosII" TARGET_NAME="TareaI_DatosII" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TareaI_DatosII" RUN_TARGET_NAME="TareaI_DatosII">
@@ -72,9 +74,9 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -96,6 +98,7 @@
       <workItem from="1615325213030" duration="44000" />
       <workItem from="1615325407566" duration="5280000" />
       <workItem from="1615330789393" duration="4560000" />
+      <workItem from="1615426882642" duration="2894000" />
     </task>
     <task id="LOCAL-00001" summary="All repaired. Remove method works with any index">
       <created>1615334638831</created>

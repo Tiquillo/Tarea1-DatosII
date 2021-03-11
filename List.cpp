@@ -16,13 +16,13 @@ List::List()
 void List::AddFront(int value) {
     if (first == nullptr) {
         first = new Node();
-        first->value = value;
-        first->next = nullptr;
+        first->SetValue(value);
+        first->SetNext(nullptr);
     } else {
         Node* temp = first;
         first = new Node();
-        first->value = value;
-        first->next = temp;
+        first->SetValue(value);
+        first->SetNext(temp);
     }
     length++;
 }
@@ -30,12 +30,12 @@ void List::AddFront(int value) {
 void List::AddFront(Node *node) {
     if (first == nullptr){
         first = node;
-        first->value = NULL;
-        first->next = nullptr;
+        first->SetValue(NULL);
+        first->SetNext(nullptr);
     } else {
-        node->next = first;
+        node->SetNext(first);
         first = node;
-        first->value = NULL;
+        first->SetValue(NULL);
     }
     length++;
 }
@@ -74,10 +74,10 @@ int List::GetByIndexRecursively(int index, Node* node){
         if (node == nullptr) {
             throw exception("Index out of bounds.");
         }
-        return node->value;
+        return node->GetValue();
 
     } else {
-        return GetByIndexRecursively(index-1, node->next);
+        return GetByIndexRecursively(index-1, node->GetNext());
     }
 }
 
@@ -89,7 +89,7 @@ Node* List::GetNodeByIndexRecursively(int index, Node* node){
         return node;
 
     } else {
-        return GetNodeByIndexRecursively(index-1, node->next);
+        return GetNodeByIndexRecursively(index-1, node->GetNext());
     }
 }
 
@@ -98,11 +98,11 @@ int List::GetByValueRecursively(int intVal, Node* node, int counter) {
     if (node == nullptr){
         return -1;                      // int value not found
 
-    } else if (node->value == intVal){
+    } else if (node->GetValue() == intVal){
         return counter;                 // returns index where value is found
 
     } else{
-        return GetByValueRecursively(intVal, node->next, counter+1);
+        return GetByValueRecursively(intVal, node->GetNext(), counter+1);
     }
 }
 
@@ -112,13 +112,13 @@ void List::RemoveRecursively(int index, Node* node, bool specialNode) {
         if (node == nullptr) {
             throw exception("Index out of bounds or list is empty.");
         }
-        Node* temp = first->next;
+        Node* temp = first->GetNext();
         delete first;
         first = temp;
 
     } else if (index == 1){
-        Node* temp = node->next;
-        node->next = node->next->next;
+        Node* temp = node->GetNext();
+        node->SetNext(node->GetNext()->GetNext());
         delete temp;
 
 
@@ -126,10 +126,10 @@ void List::RemoveRecursively(int index, Node* node, bool specialNode) {
         if (node == nullptr) {
             throw exception("Index out of bounds.");
         } else {
-            RemoveRecursively(index-1, node->next);
+            RemoveRecursively(index-1, node->GetNext());
         }
     } else {
-        RemoveRecursively(index-1, node->next);
+        RemoveRecursively(index-1, node->GetNext());
     }
 }
 
@@ -147,13 +147,13 @@ void List::PrintRecursively(Node *node) {
     if (node == nullptr){
         return;
     }
-    cout << node->value << " ";
-    PrintRecursively(node->next);
+    cout << node->GetValue() << " ";
+    PrintRecursively(node->GetNext());
 }
 
 Node *List::GetRemoveFirst() {
     Node* temp = first;
-    first = first->next;
+    first = first->GetNext();
     length--;
     return temp;
 }
