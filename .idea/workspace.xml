@@ -13,20 +13,17 @@
   <component name="ChangeListManager">
     <list default="true" id="984f6f14-095a-4247-9249-86a190a2127d" name="Default Changelist" comment="All repaired. Remove method works with any index">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collector.h" beforeDir="false" afterPath="$PROJECT_DIR$/Collector.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/List.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/List.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Node.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Node.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Node.h" beforeDir="false" afterPath="$PROJECT_DIR$/Node.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/Collector.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/Collector.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/List.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/List.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/Node.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/Node.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/main.cpp.obj" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TareaI_DatosII.dir/vc140.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/TareaI_DatosII.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/TareaI_DatosII.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/TareaI_DatosII.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/TareaI_DatosII.ilk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/TareaI_DatosII.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/TareaI_DatosII.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +95,7 @@
       <workItem from="1615325213030" duration="44000" />
       <workItem from="1615325407566" duration="5280000" />
       <workItem from="1615330789393" duration="4560000" />
-      <workItem from="1615426882642" duration="2894000" />
+      <workItem from="1615426882642" duration="5043000" />
     </task>
     <task id="LOCAL-00001" summary="All repaired. Remove method works with any index">
       <created>1615334638831</created>
